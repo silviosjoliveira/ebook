@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projeto de Vida com Propósito — Marco Antônio Dutra Teixeira</title>
+  <meta name="description" content="E-book e recursos práticos sobre neurociência cognitiva, funções executivas e Projeto de Vida para professores do Ensino Médio.">
+  <style>
+    :root{--bg:#fbfcfe;--accent:#0b66d0;--warm:#ffb020;--muted:#667085;--card:#ffffff;--glass:rgba(255,255,255,0.7)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.5;color:#0b1220;background:linear-gradient(180deg,#f6fbff 0%, #ffffff 100%)}
+    .wrap{max-width:1100px;margin:36px auto;padding:24px}
+    header{display:flex;gap:18px;align-items:center}
+    .brand{display:flex;flex-direction:column}
+    .title{font-size:20px;font-weight:700;color:var(--accent)}
+    .subtitle{font-size:13px;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px;align-items:center}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    h1{font-size:28px;margin:0 0 8px}
+    p.lead{margin:0;color:#142533}
+    .download{display:flex;flex-direction:column;gap:12px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{border:1px solid rgba(11,102,208,0.12);color:var(--accent);background:transparent}
+    nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    nav a{font-size:14px;color:var(--muted);text-decoration:none}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}
+    section h2{margin-top:0}
+    .single{display:flex;flex-direction:column;gap:8px}
+    .muted{color:var(--muted);font-size:14px}
+    .feature{display:flex;gap:12px;align-items:flex-start}
+    .dot{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--warm));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    footer{margin-top:36px;padding:18px;border-top:1px dashed #e6eefc;color:var(--muted);font-size:14px}
+    @media(max-width:880px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.wrap{padding:18px}}
+    .toc{display:flex;flex-direction:column;gap:8px}
+    .toc a{font-size:15px;color:var(--accent);text-decoration:none}
+    .box{background:linear-gradient(180deg, rgba(11,102,208,0.04), rgba(11,102,208,0.01));padding:12px;border-radius:10px}
+    .kbd{display:inline-block;background:#0b1220;color:white;padding:4px 8px;border-radius:6px;font-size:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="title">PROJETO DE VIDA COM PROPÓSITO</div>
+        <div class="subtitle">Desenvolvendo habilidades socioemocionais e cognitivas em sala de aula — Marco Antônio Dutra Teixeira</div>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <div class="muted">Mestrado em Educação e Novas Tecnologias — Unicarioca</div>
+        <div style="margin-top:6px"><a class="btn btn-ghost" href="#sobre">Sobre o autor</a></div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="card">
+        <h1>O Despertar do Ser — Educação, Ciência e Propósito</h1>
+        <p class="lead">Uma investigação aplicada que conecta neurociência cognitiva, funções executivas, linguagem e práticas pedagógicas para formar jovens capazes de navegar em ambientes complexos com sentido e responsabilidade.</p>
+
+        <nav>
+          <a href="#neuro">Neurociência do Real</a>
+          <a href="#brincar">Brincar & Lutar</a>
+          <a href="#ciclos">Ciclos de Desenvolvimento</a>
+          <a href="#projeto">Funções Executivas</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div style="margin-top:18px" class="box">
+          <strong>Resumo rápido:</strong>
+          <div class="muted">Concretude na primeira infância, construção semântica no ensino fundamental e expansão cognitiva no ensino médio. Linguagem, imitação e tecnologia como forças organizadoras.</div>
+        </div>
+
+        <div style="margin-top:18px;display:flex;gap:12px">
+          <a class="btn btn-primary" href="#download">Baixar E-book (PDF)</a>
+          <a class="btn btn-ghost" href="#conteudo">Ver sumário</a>
+        </div>
+
+        <div style="margin-top:18px" class="toc card">
+          <strong>Sumário rápido</strong>
+          <div style="margin-top:8px">
+            <a href="#ciclo1">Ciclo I — Despertar do Ser</a><br>
+            <a href="#ciclo2">Ciclo II — Construção Semântica</a><br>
+            <a href="#ciclo3">Ciclo III — Expansão</a>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='180'><rect width='100%' height='100%' fill='%23eaf4ff'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='18' fill='%230b66d0' font-family='Arial'>Capa do E-book</text></svg>" alt="Capa e-book" style="width:100%;border-radius:8px">
+
+          <div class="download">
+            <div class="muted">E-book: PROJETO DE VIDA COM PROPÓSITO</div>
+            <a id="download" class="btn btn-primary" href="#">Baixar PDF</a>
+            <a class="btn btn-ghost" href="#">Baixar EPUB</a>
+            <div class="muted" style="font-size:13px">Gratuito — Uso para professores e instituições educacionais.</div>
+          </div>
+
+          <div style="margin-top:6px" class="box">
+            <strong>Destaque:</strong>
+            <div class="muted">Atividades práticas para 3 ciclos; mapas perceptuais; exercícios de imitação vs emulação; propostas para lidar com falhas de processamento auditivo.</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <section id="conteudo" class="grid">
+      <div class="card single">
+        <h2 id="neuro">Neurociência do Real</h2>
+        <p class="muted">Como o cérebro organiza energia, emoção e cognição — o papel dos campos magnéticos, solenoides conceituais e a ideia de um conectoma em desenvolvimento.</p>
+
+        <div class="feature">
+          <div class="dot">01</div>
+          <div>
+            <strong>Campos e processos</strong>
+            <div class="muted">Eletricidade vs campos magnéticos: metáforas para pensar a plasticidade e intervenções (p.ex. TMS) em saúde mental.</div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="dot">02</div>
+          <div>
+            <strong>Quadros sutis</strong>
+            <div class="muted">TDAH, depressão e estados transtornais vistos sob a lente da autorregulação e do conectoma.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card single">
+        <h2 id="brincar">O Brincar e o Lutar — Eu, Primata</h2>
+        <p class="muted">Brincar é prática moral: emulação -> imitação -> aperfeiçoamento. Como a cultura e a linguagem aceleram a transmissão de técnica e tecnologia.</p>
+
+        <div class="feature">
+          <div class="dot">03</div>
+          <div>
+            <strong>Emulação x Imitação</strong>
+            <div class="muted">Do desejo de alcançar um resultado à reprodução processual do detalhe — bases para ensinar competências técnicas e sociais.</div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="dot">04</div>
+          <div>
+            <strong>Imitação processual</strong>
+            <div class="muted">Práticas replicáveis que aceleram aprendizagem coletiva e tecnológica.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card single">
+        <h2 id="ciclos">Ciclos do Desenvolvimento Cognitivo</h2>
+        <p class="muted">Três fases para organizar currículos e experiências: concretude, semântica e expansão.</p>
+
+        <div class="muted"><a href="#ciclo1">Ciclo I — Despertar do Ser</a></div>
+        <div class="muted"><a href="#ciclo2">Ciclo II — Construção Semântica</a></div>
+        <div class="muted"><a href="#ciclo3">Ciclo III — Expansão</a></div>
+      </div>
+
+      <div class="card single">
+        <h2 id="projeto">Funções Executivas & Projeto de Vida</h2>
+        <p class="muted">Como planejar, inibir, monitorar e adaptar: propostas práticas para integrar funções executivas ao projeto de vida escolar.</p>
+
+        <div class="feature">
+          <div class="dot">05</div>
+          <div>
+            <strong>Hierarquia do agir</strong>
+            <div class="muted">Automatizar antecipações; desenvolver metacognição; acompanhar com mediação humana.</div>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="dot">06</div>
+          <div>
+            <strong>ChatGPT & Metacognição</strong>
+            <div class="muted">Ferramentas digitais como auxílios para consolidar hábitos — sem substituir a presença docente.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="card" style="margin-top:22px">
+      <h2 id="ciclo1">Ciclo I — Despertar do Ser</h2>
+      <p class="muted">Experiências sensoriais e concretude: tocar, ouvir, cheirar e errar. Atividades práticas para educadores:
+      </p>
+      <ul class="muted">
+        <li>Oficinas de manipulação com materiais reais;</li>
+        <li>Jogos de discriminação auditiva e ritmo;</li>
+        <li>Histórias dramatizadas para consolidar mapa perceptual;</li>
+        <li>Rotinas que valorizam o erro como parte do aprender.</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2 id="ciclo2">Ciclo II — Construção Semântica</h2>
+      <p class="muted">Atividades para ampliar a linguagem simbólica e o pensamento abstrato:</p>
+      <ul class="muted">
+        <li>Projetos de pesquisa guiada sobre valores (p.ex. água e seu papel social);</li>
+        <li>Mapas conceituais que ligam sentido e função;</li>
+        <li>Exercícios de reescrita e dramatização de conceitos.</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2 id="ciclo3">Ciclo III — Expansão</h2>
+      <p class="muted">Competências para navegar complexidade:</p>
+      <ul class="muted">
+        <li>Avaliações formativas que privilegiam raciocínio em vez de memorização;</li>
+        <li>Projetos interdisciplinares que exigem integração de saberes;</li>
+        <li>Oficinas de metacognição e planejamento de carreira.</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2 id="brincos">Atividades e Ferramentas</h2>
+      <p class="muted">Exemplos práticos retirados do e-book para uso em sala:</p>
+      <ol class="muted">
+        <li>Sequência de emulação -> imitação -> imitação processual (oficina técnica passo a passo);</li>
+        <li>Ritual de concretude: circuito sensorial semanal;</li>
+        <li>Roda de escuta para adolescentes (12–15 anos) com mediação do professor;</li>
+        <li>Diagnóstico simples para suspeita de falha de processamento auditivo.</li>
+      </ol>
+    </section>
+
+    <section id="sobre" class="card" style="margin-top:18px">
+      <h2>Sobre o autor</h2>
+      <p class="muted"><strong>Marco Antônio Dutra Teixeira</strong> — Mestre em Educação e Novas Tecnologias (Unicarioca). Pesquisador nas áreas de neurociência cognitiva, funções executivas e práticas pedagógicas. Este e-book reúne ciência, prática e propostas para um projeto de vida com sentido.</p>
+
+      <div style="display:flex;gap:12px;margin-top:12px">
+        <a class="btn btn-ghost" href="#contato">Contato</a>
+        <a class="btn btn-ghost" href="#">Currículo (Lattes)</a>
+      </div>
+    </section>
+
+    <section id="contato" class="card" style="margin-top:18px">
+      <h2>Contato & Divulgação</h2>
+      <p class="muted">Para falar com o autor, utilizar o e-book em sua instituição ou solicitar palestra/curso:</p>
+      <ul class="muted">
+        <li>Email: <a href="mailto:seu-email@exemplo.com">seu-email@exemplo.com</a></li>
+        <li>Instagram: <a href="#">@seuusuario</a></li>
+        <li>LinkedIn: <a href="#">Marco Antônio Dutra Teixeira</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>© <strong>Marco Antônio Dutra Teixeira</strong> — PROJETO DE VIDA COM PROPÓSITO. E-book para formação docente. Todos os direitos reservados.</div>
+      <div style="margin-top:8px">Observação: material produzido a partir de pesquisa de mestrado; uso educacional recomendado. <span class="muted">Versão inicial — personalize links e downloads antes da publicação.</span></div>
+    </footer>
+  </div>
+</body>
+</html>
